@@ -16,7 +16,8 @@ before_install:
 
 notifications:
   email:
-    on_failure: change
+
+    on_failure: 'syedshameersarwar@gmail.com'
 
 after_success: 'npm run coveralls'
 
