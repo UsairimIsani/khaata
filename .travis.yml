@@ -15,6 +15,7 @@ before_install:
   # - sh -e /etc/init.d/xvfb start
 
 notifications:
+  webhooks:
   email:
     recipients:
       - usairim.isani@outlook.com
