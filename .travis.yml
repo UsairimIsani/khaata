@@ -16,8 +16,11 @@ before_install:
 
 notifications:
   email:
-    on_success: usairim.isani@outlook.com
-    on_failure: syedshameersarwar@gmail.com
+    recipients:
+      - usairim.isani@outlook.com
+      - syedshameersarwar@gmail.com
+    on_success: always
+    on_failure: always 
 
 after_success: 'npm run coveralls'
 
